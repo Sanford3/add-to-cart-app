@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    padding-top: 2%;
+    text-align: center;
+    /* padding-bottom: 2%; */
+}
+
+.dark-heading{
+    color: white;
+    background-color: rgb(4, 4, 33);
+}
+
+.productContainer,
+.dark-productContainer{
+    height: 400vh;
+    width: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 10) 20px 30px 30px -20px;
+    border-radius: 25px;
+}
+
+.dark-productContainer{
+    background-color: rgb(4, 4, 33);
+    color: white;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 340px;
+    /* border: 2px solid darkblue; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 10) 20px 30px 30px -20px;
+    margin: auto;
+}
+
+.dark-product{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 340px;
+    /* border: 2px solid darkblue; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 10) 20px 30px 30px -20px;
+    margin: auto;
+    color: white;
+    background-color:rgb(21, 21, 53);
+}
+
+.product img{
+    width: 300px;
+    height: 300px;
+}
+
+.dark-product img{
+    width: 300px;
+    height: 300px;
+}
+
+.add{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 33px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+}
+
+.add:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.dark-homepage{
+    /* background-color: rgb(1, 1, 23); */
+    background-color: black;
+}
+
+h4{
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 7px;
+    /* padding-top: 15px; */
+}

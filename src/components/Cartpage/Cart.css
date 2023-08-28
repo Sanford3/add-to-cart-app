@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+.dark-cart-page{
+    background-color: rgb(4, 4, 33);
+    color: white;
+}
+
+.productContainer{
+    height: fit-content;
+}
+
+.product,
+.dark-product{
+    margin: 25px;
+}
