@@ -22,7 +22,7 @@
     box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
     flex-wrap: wrap;
     z-index: 1;
-    height: 20vh;
+    /* height: 20vh; */
 }
 
 .dark-navbar{
@@ -33,7 +33,7 @@
 .left-part{
     display: flex;
     /* border: 2px solid black; */
-    width: 40%;
+    /* width: 40%; */
     align-items: center;
     justify-content: start;
 }
@@ -53,6 +53,8 @@
 
 .nav-links li{
     list-style-type: none;
+    margin-right: 4px;
+    margin-left: 4px;
 }
 
 .navbar a{
